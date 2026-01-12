@@ -93,13 +93,6 @@ npm run start        # Start production server
 └── package.json
 ```
 
-## API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/contact` | POST | Submit contact form inquiry |
-| `/api/contact` | GET | Retrieve all contact submissions |
-
 ## Deployment
 
 ### Deploy to Replit
@@ -118,14 +111,6 @@ npm run start        # Start production server
 4. Add environment variables
 5. Deploy
 
-### Deploy to Netlify
-
-1. Connect your GitHub repository
-2. Configure build settings:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-3. Add environment variables
-4. Deploy
 
 ## Environment Variables
 
@@ -149,19 +134,3 @@ Update `client/src/pages/home.tsx` to modify:
 - Featured models data
 - Contact information
 - Footer content
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For questions about this project, please open an issue on GitHub.
